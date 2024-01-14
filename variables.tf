@@ -9,7 +9,7 @@ variable "GOOGLE_REGION" {
   description = "GCP region name"
 }
 
-variable "GKE_NUM_NODES" {  
+variable "GKE_NUM_NODES" {
   type        = number
   default     = 3
   description = "node poll"
@@ -27,7 +27,7 @@ variable "GITHUB_TOKEN" {
 
 variable "FLUX_GITHUB_REPO" {
   type        = string
-  default     = "flux-gitops-gke-repo"
+  default     = "flux-gitops-gke-repo-2"
   description = "Flux GitOps repository"
 }
 
